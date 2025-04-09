@@ -23,7 +23,7 @@ CREATE TABLE properties (
     -- Corregido "avaible" → "available"
     apartment_number TEXT,
     RNT TEXT,
-    FOREIGN KEY (owner_id) REFERENCES owners(email) -- Relación por email
+    FOREIGN KEY (owner_id) REFERENCES owners(id) -- Relación por email
 );
 
 -- nombre, apellido, cedula, foto de la cedula, numero de celular, edad, correo
