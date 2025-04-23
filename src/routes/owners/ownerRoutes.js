@@ -34,7 +34,6 @@ router.post("/login", (req, res) => {
 
     const user = results[0];
 
-
     // Compara la contraseña ingresada con la almacenada en la base de datos
     const passwordMatch = await bcrypt.compare(password, user.password);
     if (!passwordMatch) {

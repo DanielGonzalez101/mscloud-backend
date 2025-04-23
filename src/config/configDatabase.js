@@ -1,7 +1,7 @@
-import dotenv from 'dotenv';
+import dotenv from "dotenv";
 dotenv.config();
 
-import mysql from 'mysql2';
+import mysql from "mysql2";
 
 // Obtenemos la configuración desde variables de entorno
 const dbConfig = {
